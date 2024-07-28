@@ -28,3 +28,9 @@ try{
 }catch(e){
     console.log(e.message)
 }
+try{
+    console.log(expected(5).tobe(4))
+
+}catch(e){
+    console.log(e.message)
+}
