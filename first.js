@@ -15,3 +15,49 @@ var counter = createCounter(-2)
 console.log(counter())
 console.log(counter())
 console.log(counter()) */
+
+
+
+/* //Day 3: To Be or Not To Be
+var expect = function(val) {
+    return {
+        toBe: function(expected) {
+            if (val === expected) {
+                return true;
+            } else {
+                throw new Error("Not Equal");
+            }
+        },
+        notToBe: function(expected) {
+            if (val !== expected) {
+                return true;
+            } else {
+                throw new Error("Equal");
+            }
+        }
+    }
+}
+
+try {
+    console.log("expect(5).toBe(5): " + expect(5).toBe(5));
+} catch (e) {
+    console.error(e.message);
+}
+
+try {
+    console.log("expect(5).toBe(4): " + expect(5).toBe(4));
+} catch (e) {
+    console.error(e.message);
+}
+
+try {
+    console.log("expect(5).notToBe(5): " + expect(5).notToBe(5));
+} catch (e) {
+    console.error(e.message);
+}
+
+try {
+    console.log("expect(5).notToBe(null): " + expect(5).notToBe(null));
+} catch (e) {
+    console.error(e.message);
+} */
